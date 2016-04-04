@@ -78,7 +78,8 @@ ENV TCZ_DEPS        iptables \
                     procps glib2 libtirpc libffi fuse pcre \
                     udev-lib udev-extra \
                     liblvm2 \
-                    parted
+                    parted \
+                    python
 
 # Make the ROOTFS
 RUN mkdir -p $ROOTFS
